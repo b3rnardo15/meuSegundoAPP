@@ -60,7 +60,7 @@ Você precisará de dois terminais abertos para executar o frontend e o backend 
     *   Encontre a linha `const API_URL = ...`.
     *   **Importante:** Altere a URL para o endereço IP local da máquina onde a API Node.js está rodando, seguido da porta 3000 e do endpoint. Exemplo:
         ```javascript
-        const API_URL = 'http://192.168.1.13:3000/location'; // Substitua pelo SEU IP local!
+        const API_URL = 'http://192.168.1.83:3000/location'; // Substitua pelo SEU IP local!
         ```
         *Dica: Você pode encontrar seu IP local usando `ipconfig` (Windows) ou `ifconfig`/`ip addr` (Linux/macOS).*
 4.  **Inicie o aplicativo com Expo:**
